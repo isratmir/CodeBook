@@ -1,8 +1,8 @@
 #View
 
-##Form
+###Form
 
-####Adding class to form and to elements
+#####Adding class to form and to elements
 
 ```
 <%= form_for @article, html: {class: "form"} do |f| %>
@@ -14,9 +14,9 @@
 <% end %>
 ```
 
-##Links
+###Links
 
-####Adding class to links
+#####Adding class to links
 ```
 	<%= link_to 'Show', article_path(article), class: "btn btn-default"  %>
 ```
