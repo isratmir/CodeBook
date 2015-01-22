@@ -4,7 +4,7 @@
 
 #####Adding class to form and to elements
 
-```
+```ruby
 <%= form_for @article, html: {class: "form"} do |f| %>
 	<div class="form-group">
       <%= f.label :title %><br>
@@ -17,6 +17,7 @@
 ###Links
 
 #####Adding class to links
-```
+
+```ruby
 	<%= link_to 'Show', article_path(article), class: "btn btn-default"  %>
 ```
