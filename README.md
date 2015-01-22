@@ -1,9 +1,9 @@
 # CodeBook
 Code use cases
 
- * [regular expression](RegExp/index.md)
- * [Ruby On Rails](RubyOnRails/index.md)
- * [PHP](PHP/index.md)
- * [MySQL](MySQL/index.md)
- * [JavaScript](JavaScript/index.md)
- * [CSS](CSS/index.md)
+ * [regular expression](RegExp/README.md)
+ * [Ruby On Rails](RubyOnRails/README.md)
+ * [PHP](PHP/README.md)
+ * [MySQL](MySQL/README.md)
+ * [JavaScript](JavaScript/README.md)
+ * [CSS](CSS/README.md)
