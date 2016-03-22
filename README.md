@@ -7,3 +7,16 @@ Code use cases
  * [MySQL](MySQL/README.md)
  * [JavaScript](JavaScript/README.md)
  * [CSS](CSS/README.md)
+
+ ## BASH
+
+ Incorrect 
+```sh
+ PROJECT_DIR = "/home/user/public_html/project";
+```
+
+ Correct 
+```sh
+ PROJECT_DIR="/home/user/public_html/project";
+``` 
+
