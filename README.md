@@ -9,8 +9,9 @@ Code use cases
  * [CSS](CSS/README.md)
 
  ## BASH
+ ### Path variables
 
- Incorrect 
+Incorrect 
 ```sh
  PROJECT_DIR = "/home/user/public_html/project";
 ```
