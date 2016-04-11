@@ -7,6 +7,7 @@ Code use cases
  * [MySQL](MySQL/README.md)
  * [JavaScript](JavaScript/README.md)
  * [CSS](CSS/README.md)
+ * [Python] (Python/README.md)
 
  ## BASH
  ### Path variables
