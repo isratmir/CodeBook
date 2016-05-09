@@ -8,6 +8,7 @@ Code use cases
  * [JavaScript](JavaScript/README.md)
  * [CSS](CSS/README.md)
  * [Python] (Python/README.md)
+ * [Symfony] (Symfony/README.md)
 
  ## BASH
  ### Path variables
