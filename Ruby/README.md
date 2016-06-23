@@ -1,3 +1,4 @@
+####Arrays
 ```ruby
 
 [1, 2, 3, 4, 5].map { |i| i + 1 }
@@ -12,13 +13,16 @@ names.select {|word| word.length > 5 }
 [1, 2, 3, 4, 5]<<"woot"
 
 [1, 2, 3, 4, 5].push "woot"
+```
 
+####String
+```ruby
 'Fear is the path to the dark side'.split(' ')
 
 'Ruby' + 'Monk'
 "Ruby".concat("Monk")
 ```
-###Replacing a substring
+####Replacing a substring
 ```ruby
 "I should look into your problem when I get time".sub('I','We')
 "I should look into your problem when I get time".gsub('I','We')
