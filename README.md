@@ -3,6 +3,7 @@ Code use cases
 
  * [regular expression](RegExp/README.md)
  * [Ruby On Rails](RubyOnRails/README.md)
+ * [Ruby](Ruby/README.md)
  * [PHP](PHP/README.md)
  * [MySQL](MySQL/README.md)
  * [JavaScript](JavaScript/README.md)
