@@ -17,8 +17,9 @@ names.select {|word| word.length > 5 }
 
 'Ruby' + 'Monk'
 "Ruby".concat("Monk")
-
-Replacing a substring
+```
+###Replacing a substring
+```ruby
 "I should look into your problem when I get time".sub('I','We')
 "I should look into your problem when I get time".gsub('I','We')
 'RubyMonk Is Pretty Brilliant'.gsub(/[A-Z]/, '0')
