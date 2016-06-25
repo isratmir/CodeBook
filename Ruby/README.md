@@ -29,11 +29,47 @@ names.select {|word| word.length > 5 }
 'RubyMonk Is Pretty Brilliant'.gsub(/[A-Z]/, '0')
 'RubyMonk Is Pretty Brilliant'.match(/ ./, 9)
 
-Boolean
+####Boolean
 !(name=='Bob')
+```
+###Examples
 
+```ruby
 def sort_string(string)
   string.split(' ').sort{|x, y| x.length <=> y.length}.join(' ')
 end
 
+def random_select(array, n)
+  result = []
+  n.times do 
+    result << array[rand(array.length)]
+  end
+  result
+end
+
+is_an_experienced_ruby_programmer =
+  (candidate.languages_worked_with.include? 'Ruby') &&
+  (candidate.years_of_experience >= 2 || candidate.github_points >= 500) &&
+  ! (candidate.age < 15 || candidate.applied_recently?)
+
+def palindrome?(sentence)
+  s = sentence.downcase.gsub(" ","")
+  s == s.reverse
+end
+
+def sum_of_cubes(a, b)
+  (a..b).inject(0) { |sum, x| sum += (x*x*x) }
+end
+
+def non_duplicated_values(values)
+  unique = []
+  values.map do |i|
+    if values.count(i) < 2
+      unique << i
+    end
+  end
+  unique
+endef sort_string(string)
+  string.split(' ').sort{|x, y| x.length <=> y.length}.join(' ')
+end
 ```
