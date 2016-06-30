@@ -23,4 +23,7 @@ Incorrect
 ```sh
  PROJECT_DIR="/home/user/public_html/project";
 ``` 
-
+###Dumping from crontab
+```sh
+ * * * * * mysqldump -u root -p12345 tsusa_prod | gzip > `date +/home/user/Desktop/dump.sql.\%d_\%m_\%y_\%H_\%M_\%S.gz`
+```
